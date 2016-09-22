@@ -1,0 +1,68 @@
+/*
+ * Copyright (c) Bishoy Hanna 2016.
+ *   This program is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     This program is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ *
+ *     You should have received a copy of the GNU General Public License
+ *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*!
+ * Bootstrap CSS Tests
+ */
+
+
+/* Remove background image */
+body {
+  background-image: none;
+}
+
+/* Space out subhead */
+.subhead {
+  margin-bottom: 36px;
+}
+h4 {
+  margin-bottom: 5px;
+}
+
+
+/* colgroup tests */
+.col1 {
+  background-color: rgba(255,0,0,.1);
+}
+.col2 {
+  background-color: rgba(0,255,0,.1);
+}
+.col3 {
+  background-color: rgba(0,0,255,.1);
+}
+
+
+/* Fluid row inputs */
+#rowInputs .row > [class*=span],
+#fluidRowInputs .row-fluid > [class*=span] {
+  background-color: rgba(255,0,0,.1);
+}
+
+
+/* Fluid grid */
+.fluid-grid {
+  margin-bottom: 45px;
+}
+.fluid-grid .row {
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 10px;
+  color: #ddd;
+  text-align: center;
+}
+.fluid-grid .span1 {
+  background-color: #999;
+}
